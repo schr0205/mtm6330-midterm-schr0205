@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/min/main.css" rel="stylesheet">
+  <script src="main.js"></script>
+  <title>Midterm Project</title>
+</head>
+
+<body>
+  <div class=header>
+    <h1>Animal Resurrection</h1>
+    <div class=clearfloat>
+      <a href="index.html">
+        <img class=topPic src="images/logo.png" alt="elephant" href="home">
+      </a>
+    </div>
+  </div>
+  <div class=backButton>
+    <button onclick="goBack()" class=back>Go Back</button>
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </div>
+  <div class=plansBody>
+    <h2 class=name>Schedule</h2>
+    <hr>
+    <table>
+      <tr>
+        <th class=width>Time</th>
+        <th>Plan</th>
+      </tr>
+      <tr>
+        <td>7:00-8:00 pm</td>
+        <td>Guest arrivals</td>
+      </tr>
+      <tr>
+        <td>8:00-9:00 pm</td>
+        <td>Opening speechs & Greetings</td>
+      </tr>
+      <tr>
+        <td>9:00-10:00 pm</td>
+        <td>Dinner</td>
+      </tr>
+      <tr>
+        <td>10:00-10:30 pm</td>
+        <td>Donations</td>
+      </tr>
+      <td>10:30-11:00 pm</td>
+      <td>Closing speechs</td>
+    </table>
+  </div>
+  <div class=footer>
+    <a href="index.html">
+      <img src="socialLink/facebook.png" class=socialLink onlionclick=window.location.href=https://www.facebook.com/>
+        <img src="socialLink/twitter.png" class=socialLink onlionclick=window.location.href=https://www.twitter.com/>
+        <img src="socialLink/instagram.png" class=socialLink onlionclick=window.location.href=https://www.instagram.com/>
+        <img id=bottomPic class=bottomPic src="images/logo.png" alt="elephant">
+    </a>
+    <p class=copyright>Copyrights-My site 2018</p>
+  </div>
+</body>
+
+</html>

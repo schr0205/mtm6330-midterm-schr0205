@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/min/main.css" rel="stylesheet">
+  <script src="main.js"></script>
+  <title>Midterm Project</title>
+</head>
+
+<body>
+  <div class=header>
+    <h1>Animal Resurrection</h1>
+    <div class=clearfloat>
+      <a href="index.html">
+        <img class=topPic src="images/logo.png" alt="elephant" href="home">
+      </a>
+    </div>
+  </div>
+  <div class=backButton>
+    <button onclick="goBack()" class=back>Go Back</button>
+    <script>
+      function goBack() {
+        window.history.back();
+      }
+    </script>
+  </div>
+  <div class=ticketBody>
+    <h2 class=name>Purchasing a ticket</h2>
+    <hr>
+    <table class=ticketPurchase>
+      <tr>
+        <th class=bar>Buy a ticket</th>
+      </tr>
+      <tr>
+        <th class=bar>For Animal Resurrection Event</th>
+      </tr>
+      <tr>
+        <th onclick="buy()" class=buy>Buy Ticket</th>
+      </tr>
+    </table>
+    <div class=ticketImage>
+
+      <h2 id=title>Animal Resurrection</h2>
+      <table>
+        <tr>
+          <th class=head>Date & Time</th>
+          <th class=head>Location</th>
+        </tr>
+        <tr>
+          <td class=info>7:00pm December 20th, 2018</td>
+          <td class=info>Fairmont Banff Springs Hotel</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+
+  <div class=footer>
+    <img src="socialLink/facebook.png" class=socialLink onlionclick=window.location.href=https://www.facebook.com/>
+      <img src="socialLink/twitter.png" class=socialLink onlionclick=window.location.href=https://www.twitter.com/>
+      <img src="socialLink/instagram.png" class=socialLink onlionclick=window.location.href=https://www.instagram.com/>
+      <a href="index.html">
+    <img id=bottomPic class=bottomPic src="images/logo.png" alt="elephant">
+    </a>
+    <p class=copyright>Copyrights-My site 2018</p>
+  </div>
+</body>
+
+</html>
