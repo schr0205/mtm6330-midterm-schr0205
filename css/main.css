@@ -151,7 +151,7 @@ td {
 
 .buy {
   background-color: #555353;
-  color: #555353;
+  color: #1b1b1b;
   border: none;
   padding: 20px;
   border-radius: 20px;
@@ -274,5 +274,24 @@ td {
     border: #e3e3e3;
     border-style: double;
     width: 40%; }
+  #photo {
+    display: table-cell;
+    border-radius: 25px;
+    float: left;
+    padding: 15px;
+    width: 200px;
+    height: 200px; }
+  .animalTable {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px; }
+  .animalTable::after {
+    text-align: center;
+    clear: both;
+    display: table; }
+  .left {
+    margin-left: 80px; }
   .width {
-    width: 500px; } }
+    padding: 30px; } }

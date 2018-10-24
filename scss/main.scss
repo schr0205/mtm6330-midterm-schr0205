@@ -180,7 +180,7 @@ td {
 
 .buy {
   background-color: $sharkCityGray;
-  color: $sharkCityGray;
+  color: $nox;
   border: none;
   padding: 20px;
   border-radius: 20px;
@@ -331,18 +331,31 @@ td {
     border-style: double;
     width: 40%;
   }
-  .width {
-    width: 500px;
-  }
-  .animalTable {
-    display: table;
-    border-spacing: 25px;
-    width: 100%;
-    margin: 0;
-    position: static;
-    margin-bottom: 20px;
-  }
+
   #photo {
     display: table-cell;
+    border-radius: 25px;
+    float: left;
+    padding: 15px;
+    width: 200px;
+    height: 200px;
+  }
+  .animalTable {
+    text-align: center;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+  }
+  .animalTable::after {
+    text-align: center;
+    clear: both;
+    display: table;
+  }
+  .left {
+    margin-left: 80px;
+  }
+  .width {
+    padding: 30px;
   }
 }
