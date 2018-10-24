@@ -334,4 +334,15 @@ td {
   .width {
     width: 500px;
   }
+  .animalTable {
+    display: table;
+    border-spacing: 25px;
+    width: 100%;
+    margin: 0;
+    position: static;
+    margin-bottom: 20px;
+  }
+  #photo {
+    display: table-cell;
+  }
 }
